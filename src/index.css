@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App h3{
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid 5px gray;
+}
+
+.cols{
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SampleComp{
+  border-style: solid;
+  border-width: 2px;
+  border-color: lightgray;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.SampleComp h2, .SampleComp p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.SampleComp h2 a{
+  color: black;
+  text-decoration: none;
+}
+
+.SampleComp h2 a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.SampleComp p {
+  color: gray;
+}
+
+.SampleComp p strong{
+  color: black;
+}
+
+.two .SampleComp{
+  width: 47%;
+  display: flex;
+}
+
+.three .SampleComp{
+  width: 30%;
+}
+
+.three .SampleComp img{
+  width: 100%;
+  height: 45%;
+}
+
+.two .SampleComp img, .two .SampleComp .content{
+  width: 50%;
+  height: 100%;
+}
+
+.SampleComp .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55%;
+}
+
+.author p{
+  margin-top: 0;
+}
+
+.author{
+  display: flex;
+  padding: 15px;
+}
+
+.fas{
+  flex-grow: 1;
+  text-align: end;
+}
+
+.author img{
+  padding: 5px;
+  border-radius: 50%;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: aqua;
+  border-style: solid;
+  height: 40px !important;
+  width: 40px !important;
+}
+
+
+
+
